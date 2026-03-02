@@ -1,0 +1,46 @@
+# Xcode
+build/
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift
+.build/
+.swiftpm/
+*.swift.proto
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dependencies (if using CocoaPods or Carthage)
+Pods/
+Carthage/
+.carthage/
+
+# Testing
+.coverage/
+
+# Temporary files
+*.tmp
+.swiftlint.cache

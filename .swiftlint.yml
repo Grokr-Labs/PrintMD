@@ -1,0 +1,48 @@
+# SwiftLint Configuration for PrintMD
+
+# Disabled rules (optional)
+disabled_rules:
+  - legacy_hashing  # Swift 4.2+
+
+# Configured rules
+line_length:
+  max_length: 120
+  ignores_comments: true
+  ignores_urls: true
+
+function_body_length:
+  max_length: 150
+
+type_body_length:
+  max_length: 200
+
+cyclomatic_complexity:
+  ignores_case_statements: false
+  max: 10
+
+nesting:
+  max_nesting_level: 5
+
+file_length:
+  max_lines: 400
+  ignore_comment_only_lines: true
+
+function_parameter_count:
+  max_length: 5
+
+# Strict mode (treat warnings as errors in CI)
+strict: true
+
+# Directories to check
+included:
+  - Sources
+  - Tests
+
+excluded:
+  - Pods
+  - Carthage
+  - .build
+  - .swiftpm
+
+# Allow warnings in test files (optional)
+reporter: "xcode"

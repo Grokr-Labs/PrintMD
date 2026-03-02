@@ -1,0 +1,7 @@
+# Default owner for everything
+* @JonathanWorks
+
+# Future: delegate specific domains
+# /Sources/PrintDriver/     @printer-driver-expert
+# /Sources/Core/Converter   @converter-expert
+# /Sources/UI/              @ui-expert
